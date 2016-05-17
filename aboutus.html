@@ -7,41 +7,47 @@
 	
 	<link href="css/style.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="">
-
+	
 </head>
 
 <body>	
 		<header class="header_area">
-			<div class="fix header">
-				<div class="logo fix floatleft">
-					<a href="#"><h1>LOVE<span>BLOG</span></h1></a>
-				</div>
-				<div class="mainmenu floatright">
-					<ul id="nav">
-						<li><a href="index.html" class="active">Home</a></li>
-						<li><a href="single.html">About us</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
-
-		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col s1">
+					<div class="col-md-4">
+						<div class="fix header">
+							<div class="logo fix floatleft">
+								<h1 class="text-orange">LOVE<span class="text-pink">BLOG</span></h1>
+							<div class="mainmenu floatright">
+						</div>
+					</div>
+					<div class="col-md-8">
+						<ul id="nav">
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="aboutus.html">About us</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contactus.html">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</header>
+
+		<section id="section-name">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
 						<img src="images/galley_photo.png">
 					</div>
-					<div class="col s10">
-						<div class="orange-square2">
+					<div class="col-md-10">
+						<div class="orange-square">
 							<p class="text-white">ABOUT US</p>
 						</div>
 					</div>
-					<div class="col s1">
+					<div class="col-md-1">
 						<img src="images/galley_photo.png">
 					</div>
 				</div>
@@ -51,19 +57,20 @@
 		<section class="first-parragraph">
 			<div class="container">
 				<div class="row">
-					<div class="col s8">
+					<div class="col-md-8">
 						<div class="row">
-							<div class="col s4">
-								<img src="images/author.png" alt="" class="author">
+							<div class="col-md-4">
+								<img src="images/author.png" alt="" class="author img-thumbnail">
 							</div>
-							<div class="col s8">
-								<p>Maecenas elementum tincidunt dolor eu vehicula. Suspendisse ultricies, massa sit amet consectetur posuere, justo metus blandit ligula, id molestie dolor erat id ipsum. Vestibulum libero elit, pellentesque ac finibus sit amet, mattis vestibulum elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non pulvinar odio. Vestibulum porttitor purus a nisl posuere feugiat. Integer cursus nulla eget ex tristique, nec lobortis tortor pretium. Maecenas eu felis ac tortor ultrices elementum a sed arcu. Proin ac aliquet augue, eget consequat ligula. Curabitur libero ipsum, porta non sapien porttitor, ornare elementum leo.
+							<div class="col-md-8">
+								<p class="paragraph">Maecenas elementum tincidunt dolor eu vehicula. Suspendisse ultricies, massa sit amet consectetur posuere, justo metus blandit ligula, id molestie dolor erat id ipsum. Vestibulum libero elit, pellentesque ac finibus sit amet, mattis vestibulum elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non pulvinar odio. Vestibulum porttitor purus a nisl posuere feugiat. Integer cursus nulla eget ex tristique, nec lobortis tortor pretium. Maecenas eu felis ac tortor ultrices elementum a sed arcu. Proin ac aliquet augue, eget consequat ligula. Curabitur libero ipsum, porta non sapien porttitor, ornare elementum leo urae; Praesent non pulvinar odio. Vestibulum porttitor purus a nisl posuere feugiat. Integer cursus nulla eget ex tristique, nec lobortis tortor pretium. Maecenas eu felis ac tortor ultrices elementum a sed arcu. Proin ac aliquet augue, eget consequat ligula. Curabitur libero ipsum, porta non sapien porttitor, ornare elementum .
 								</p>
 							</div>
-							<p>Maecenas elementum tincidunt dolor eu vehicula. Suspendisse ultricies, massa sit amet consectetur posuere, justo metus blandit ligula, id molestie dolor erat id ipsum. Vestibulum libero elit, pellentesque ac finibus sit amet, mattis vestibulum elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non pulvinar odio.</p>
+							
 						</div>
 						<div class="row">
-							<div class="col s12">
+							<div class="col-md-12">
+								<p>Maecenas elementum tincidunt dolor eu vehicula. Suspendisse ultricies, massa sit amet consectetur posuere, justo metus blandit ligula, id molestie dolor erat id ipsum. Vestibulum libero elit, pellentesque ac finibus sit amet, mattis vestibulum elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non pulvinar odio.</p>
 								<div class="orange-bar"></div>
 								<p class="text-orange">
 									Disque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eget sagittis neque. Proin non ligula nec diam aliquet maximus. Quisque sit amet risus id magna pulvinar tristique. Etiam convallis non eros eu lacinia. Nunc fermentum sit amet lacus ac hendrerit. Donec eu vestibulum erat. Cras at ante non tellus fringilla ultrices a in est. Nulla hendrerit elementum mi, id placerat leo dignissim in. Pellentesque et nulla egestas, blandit tellus eget, tristique tortor. Aliquam at risus odio. Sed pulvinar dui ut justo laoreet scelerisque. Integer at odio nisl.
@@ -71,12 +78,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col s12">
+							<div class="col-md-12">
 								<p>Quisque molestie purus vel dictum dictum. Fusce lacinia quis velit a gravida. Ut ac ex dictum, rutrum nisi id, faucibus quam. Fusce dui metus, tempor sit amet odio vitae, rutrum placerat nisi. Aenean iaculis ut risus a vehicula. Etiam non congue nunc. Cras odio augue, efficitur nec elit vel, aliquam auctor ipsum. In rhoncus suscipit dui, vulputate tincidunt orci eleifend ac. Morbi vel cursus nulla. Nullam sit amet imperdiet quam, sit amet tincidunt urna. Curabitur placerat enim at enim congue ultrices.<br>D Quisque molestie purus vel dictum dictum. Fusce lacinia quis velit a gravida. Ut ac ex dictum, rutrum nisi id, faucibus quam. Fusce dui metus, tempor sit amet odio vitae, rutrum placerat nisi. Aenean iaculis ut risus a vehicula. Etiam non congue nunc. Cras odio augue, efficitur nec elit vel, aliquam auctor ipsum. In rhoncus suscipit dui, vulputate tincidunt orci eleifend ac. Morbi vel cursus nulla. Nullam sit amet imperdiet quam, sit amet tincidunt urna. Curabitur placerat enim at enim congue ultrices. Vivamus ultricies lorem sed porta auctor. Ut commodo facilisis dui, id egestas nulla sodales id.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col s4">
+					<div class="col-md-4">
 						<div class="side-col">
 							<h3 class="text-orange">ABOUT JETRO <img src="images/heading-bg.png"></h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae nibh tempus, semper magna quis, imperdiet elit. Donec quis efficitur enim, ac venenatis eros ipsum.</p>
@@ -100,46 +107,48 @@
 							<img src="images/galley_photo.png" class="orange-square">
 							<img src="images/galley_photo.png" class="orange-square">
 							<img src="images/galley_photo.png" class="orange-square">
+							<img src="images/galley_photo.png" class="orange-square">
+							<img src="images/galley_photo.png" class="orange-square">
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-        <div class="fix footer_area">
-			<div class="fix footer">
-				<div class="fix single_footer_container">
-					<div class="fix single_footer floatleft">
-						<h2>About Jetro</h2>
-						<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. </p>
-						<br/>
-						<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="orange-bar"></div>
 					</div>
-					<div class="fix single_footer floatleft">
-						<h2>Twitter Widget</h2>
-						<p>@pixelmater What an awesome design with great functionality :)<br/>about 1 hour ago</p><br/>
-						<p>@pixelmater What an awesome design with great functionality :)<br/>about 2 hour ago</p><br/>
-						<p>Follow @bestpsdfreebies</p>
-					</div>
-					<div class="fix single_footer floatleft">
-						<h2>Contact us</h2>
-						<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
-						<br/>
-						<p>information@jetro.com</p>
-						<p>1.222.333.4444</p>
-						<div class="fix social_area">
-							<ul>
-								<li><a href="#" class="facebook">facebook</a></li>
-								<li><a href="#" class="twitter">twitter</a></li>
-								<li><a href="#" class="email">email</a></li>
-								<li><a href="#" class="feed">feed</a></li>
-								<li><a href="#" class="vimeo">vimeo</a></li>
-							</ul>
+					<div class="col-md-10 orange-bg">
+						<div class="col-md-4">
+							<h2>About Jetro</h2>
+							<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. </p>
+							<br/>
+							<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
 						</div>
+						<div class="col-md-4">
+							<h2>Twitter Widget</h2>
+							<p>@pixelmater What an awesome design with great functionality :)<br/>about 1 hour ago</p><br/>
+							<p>@pixelmater What an awesome design with great functionality :)<br/>about 2 hour ago</p><br/>
+							<p>Follow @bestpsdfreebies</p>
+						</div>
+						<div class="col-md-4">
+							<h2>Contact us</h2>
+							<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
+							<br/>
+							<p>information@jetro.com</p>
+							<p>1.222.333.4444</p>
+							<img src="images/social.png">
+						</div>
+					</div>
+					<div class="col-md-1">
+						<div class="orange-bar"></div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	
 		<script src="js/jquery-min.js"></script>						
 </body>
